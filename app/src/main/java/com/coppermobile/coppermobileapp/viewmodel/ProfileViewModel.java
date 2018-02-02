@@ -2,11 +2,10 @@ package com.coppermobile.coppermobileapp.viewmodel;
 
 import android.content.Context;
 import android.databinding.Bindable;
-import android.util.Log;
 
 import com.coppermobile.coppermobileapp.MyAppController;
 import com.coppermobile.coppermobileapp.model.ProfileResponse;
-import com.coppermobile.coppermobileapp.network.GetProfileService;
+import com.coppermobile.coppermobileapp.network.apiinterface.profile.GetProfileService;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;

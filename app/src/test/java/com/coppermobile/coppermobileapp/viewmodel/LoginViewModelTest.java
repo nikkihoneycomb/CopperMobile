@@ -3,8 +3,8 @@ package com.coppermobile.coppermobileapp.viewmodel;
 import com.coppermobile.coppermobileapp.TestSchedulerProvider;
 import com.coppermobile.coppermobileapp.model.LoginRequest;
 import com.coppermobile.coppermobileapp.model.LoginResponse;
-import com.coppermobile.coppermobileapp.network.apiinterface.LoginService;
-import com.coppermobile.coppermobileapp.network.apiinterface.apimanager.LoginManager;
+import com.coppermobile.coppermobileapp.network.apiinterface.apimanager.login.LoginService;
+import com.coppermobile.coppermobileapp.network.apiinterface.apimanager.login.LoginManager;
 import com.coppermobile.coppermobileapp.view.login.LoginNavigator;
 
 import org.junit.After;

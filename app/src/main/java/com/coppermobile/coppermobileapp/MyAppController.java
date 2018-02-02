@@ -2,10 +2,11 @@ package com.coppermobile.coppermobileapp;
 
 import android.app.Application;
 
-import com.coppermobile.coppermobileapp.network.GetProfileService;
-import com.coppermobile.coppermobileapp.network.apiinterface.LoginService;
-import com.coppermobile.coppermobileapp.network.apiinterface.apimanager.LoginManager;
-import com.coppermobile.coppermobileapp.network.apiinterface.apimanager.ProfileManager;
+
+import com.coppermobile.coppermobileapp.network.apiinterface.login.LoginManager;
+import com.coppermobile.coppermobileapp.network.apiinterface.login.LoginService;
+import com.coppermobile.coppermobileapp.network.apiinterface.profile.GetProfileService;
+import com.coppermobile.coppermobileapp.network.apiinterface.profile.ProfileManager;
 
 import io.reactivex.Scheduler;
 import io.reactivex.schedulers.Schedulers;

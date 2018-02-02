@@ -10,12 +10,13 @@ import com.coppermobile.coppermobileapp.model.LoginRequest;
 import com.coppermobile.coppermobileapp.model.LoginResponse;
 import com.coppermobile.coppermobileapp.network.AppSchedulerProvider;
 import com.coppermobile.coppermobileapp.network.SchedulerProvider;
-import com.coppermobile.coppermobileapp.network.apiinterface.LoginService;
+import com.coppermobile.coppermobileapp.network.apiinterface.login.LoginService;
 import com.coppermobile.coppermobileapp.view.login.LoginNavigator;
 
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
+
 
 
 
