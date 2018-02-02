@@ -1,9 +1,8 @@
-package com.coppermobile.coppermobileapp.network;
-
-import android.database.Observable;
+package com.coppermobile.coppermobileapp.network.apiinterface.profile;
 
 import com.coppermobile.coppermobileapp.model.ProfileResponse;
 
+import io.reactivex.Observable;
 import retrofit2.http.GET;
 
 /*

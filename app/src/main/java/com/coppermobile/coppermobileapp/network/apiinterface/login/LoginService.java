@@ -1,11 +1,11 @@
-package com.coppermobile.coppermobileapp.network.apiinterface;
+package com.coppermobile.coppermobileapp.network.apiinterface.login;
 
 
-import android.database.Observable;
 
 import com.coppermobile.coppermobileapp.model.LoginRequest;
 import com.coppermobile.coppermobileapp.model.LoginResponse;
 
+import io.reactivex.Observable;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
 

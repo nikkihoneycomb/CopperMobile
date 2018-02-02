@@ -1,6 +1,7 @@
-package com.coppermobile.coppermobileapp.network.apiinterface.apimanager;
+package com.coppermobile.coppermobileapp.network.apiinterface.profile;
 
-import com.coppermobile.coppermobileapp.network.GetProfileService;
+
+import com.coppermobile.coppermobileapp.network.apiinterface.NetworkManager;
 
 /*
    Name: ProfileManager
